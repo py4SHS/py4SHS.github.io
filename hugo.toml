@@ -2,6 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'py4SHS'
 theme = 'ananke'
+test
 
 resourceDir = "../resources"
 
