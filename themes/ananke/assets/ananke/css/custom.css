@@ -117,8 +117,7 @@
 
 @font-face {
     font-family: Flexibility-Display;
-    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/98992749827fcc6523c8fe10a03eeb3b.eot);
-    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/98992749827fcc6523c8fe10a03eeb3b.eot?#iefix) format("embedded-opentype"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/901c564a52bc29216cfa202b23a03bda.woff) format("woff"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/4742a0201f3bbbb712403e01390656f7.ttf) format("truetype");
+    src: local (Flexibility-Display), local (Flexibility-Display), local (Flexibility-Display), local (Flexibility-Display), url(/fonts/901c564a52bc29216cfa202b23a03bda.woff) format("woff"), url(/fonts/4742a0201f3bbbb712403e01390656f7.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility
@@ -126,28 +125,19 @@
 
 @font-face {
     font-family: Flexibility-Display;
-    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/5031d4e4d01e4f7ca457b6bfd391afac.eot);
-    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/5031d4e4d01e4f7ca457b6bfd391afac.eot?#iefix) format("embedded-opentype"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/ee3be16b994f69559ea3d2090be2a5c0.woff) format("woff"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/aa3335ac9949dd34d2e71b952a64b726.ttf) format("truetype");
+    src: local (Flexibility-Display), local (Flexibility-Display), url(/fonts/ee3be16b994f69559ea3d2090be2a5c0.woff) format("woff"), url(/fonts/aa3335ac9949dd34d2e71b952a64b726.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility
 }
 
-html {
-    line-height: 1.15;
-    -webkit-text-size-adjust:100%
-}
 
-body {
-    margin:0
-}
-
-main {
-    display:block
+.bg-electric-blau {
+    background-color: #0256b9;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     margin:.67em 0
 }
 
@@ -297,7 +287,7 @@ summary {
 }
 
 blockquote, h1 {
-    font-size:4rem
+    font-size:1.5rem
 }
 
 h2 {
