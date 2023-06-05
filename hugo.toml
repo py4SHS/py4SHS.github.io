@@ -24,7 +24,7 @@ enableRobotsTXT = true
   site_logo = "/images/logo.png"
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-red"
+  background_color_class = "bg-electric-blau"
   # body_classes = "Theinhardt bg-near-white"
   recent_posts_number = 6
   custom_css = ["custom.css"]
