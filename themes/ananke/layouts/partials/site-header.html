@@ -25,10 +25,47 @@
 
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+
+
+    <!-- <div class="vh-100 dt w-100 tc bg-dark-gray">
+
+      <div class="dtc v-mid">
+        <h1 class="f1 f-headline-l fw1 i white-60">{{ .Title | default .Site.Title }}</h1>
+        <blockquote class="ph0 mh0 measure f4 lh-copy center">
+          {{ with .Params.description }}  
+          <p class="fw1 white-70">
+            {{ . }}
+          </p>
+          {{ end }}
+          <cite class="f6 ttu tracked fs-normal">Université de Lorraine</cite>
+        </blockquote>
+      </div>
+    </div> -->
+
+
+
+
+
+    <!-- <div class="vh-100 dt w-100 tc bg-dark-gray pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white mb0 lh-title" style="font-family: 'Flexibility-Display'; font-weight: 700">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div> -->
+
+
+
+    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+      {{ partial "site-navigation.html" . }}
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
           {{ .Title | default .Site.Title }}
         </h1>
         {{ with .Params.description }}
