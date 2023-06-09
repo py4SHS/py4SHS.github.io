@@ -1,4 +1,3 @@
-/public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
@@ -11,4 +10,4 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 node_modules
-.DS_store
+.DS_*
