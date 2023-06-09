@@ -97,7 +97,7 @@
     text-rendering: optimizeLegibility
 }
 
-@font-face {
+/* @font-face {
     font-family: Flexibility;
     src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/791c8ee7bad5cde78c17b2501d6ea7f0.eot);
     src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/791c8ee7bad5cde78c17b2501d6ea7f0.eot?#iefix) format("embedded-opentype"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/b5e0ab23b09c3932effdd2c06152aa55.woff) format("woff"), url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/00a325f9f15c40a01b0ac55f49d45e17.ttf) format("truetype");
@@ -129,7 +129,40 @@
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility
-}
+} */
+
+@font-face {
+    font-family: Flexibility;
+    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/791c8ee7bad5cde78c17b2501d6ea7f0.eot);
+    src: url(/wp-content/themes/design-museum-danmark/dist/791c8ee7bad5cde78c17b2501d6ea7f0.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/design-museum-danmark/dist/b5e0ab23b09c3932effdd2c06152aa55.woff) format("woff"),url(/wp-content/themes/design-museum-danmark/dist/00a325f9f15c40a01b0ac55f49d45e17.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering:optimizeLegibility}
+
+@font-face {
+    font-family: Flexibility;
+    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/316750d01740aa700184374e2878c49e.eot);
+    src: url(/wp-content/themes/design-museum-danmark/dist/316750d01740aa700184374e2878c49e.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/design-museum-danmark/dist/68ffe20cfcdbc056ce51157e901d9d75.woff) format("woff"),url(/wp-content/themes/design-museum-danmark/dist/8e8ad499f6916f9faf8d1327897801e6.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    text-rendering:optimizeLegibility}
+
+@font-face {
+    font-family: Flexibility-Display;
+    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/98992749827fcc6523c8fe10a03eeb3b.eot);
+    src: url(/wp-content/themes/design-museum-danmark/dist/98992749827fcc6523c8fe10a03eeb3b.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/design-museum-danmark/dist/901c564a52bc29216cfa202b23a03bda.woff) format("woff"),url(/wp-content/themes/design-museum-danmark/dist/4742a0201f3bbbb712403e01390656f7.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering:optimizeLegibility}
+
+@font-face {
+    font-family: Flexibility-Display;
+    src: url(https://designmuseum.dk/wp-content/themes/design-museum-danmark/dist/5031d4e4d01e4f7ca457b6bfd391afac.eot);
+    src: url(/wp-content/themes/design-museum-danmark/dist/5031d4e4d01e4f7ca457b6bfd391afac.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/design-museum-danmark/dist/ee3be16b994f69559ea3d2090be2a5c0.woff) format("woff"),url(/wp-content/themes/design-museum-danmark/dist/aa3335ac9949dd34d2e71b952a64b726.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering:optimizeLegibility}
+
 
 
 .bg-electric-blau {
@@ -287,7 +320,7 @@ summary {
 }
 
 blockquote, h1 {
-    font-size:1.5rem
+    font-size:4rem
 }
 
 h2 {
