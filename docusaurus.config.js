@@ -81,43 +81,34 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Github (metz-theolab)',
-                href: 'https://github.com/metz-theolab/',
-              },
-              {
-                label: 'Github (Py4SHS)',
-                href: 'https://github.com/Py4SHS/',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/frdrqrey',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   // {
+        //   //   title: 'Docs',
+        //   //   items: [
+        //   //     {
+        //   //       label: 'Tutorial',
+        //   //       to: '/docs/intro',
+        //   //     },
+        //   //   ],
+        //   // },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Github (metz-theolab)',
+        //         href: 'https://github.com/metz-theolab/',
+        //       },
+        //       {
+        //         label: 'Github (Py4SHS)',
+        //         href: 'https://github.com/Py4SHS/',
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/frdrqrey',
+        //       }
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Py4SHS. Built with Docusaurus.`,
       },
       prism: {
