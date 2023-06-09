@@ -34,16 +34,18 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/py4SHS/py4shs.github.io/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/py4SHS/py4shs.github.io/tree/main/',
-        },
+        docs: false,
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   editUrl:
+        //     'https://github.com/py4SHS/py4shs.github.io/tree/main/',
+        // },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     'https://github.com/py4SHS/py4shs.github.io/tree/main/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -62,20 +64,20 @@ const config = {
           alt: 'Py4SHS Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/Py4SHS/py4shs.github.io',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        // items: [
+        //   {
+        //     type: 'docSidebar',
+        //     sidebarId: 'tutorialSidebar',
+        //     position: 'left',
+        //     label: 'Tutorial',
+        //   },
+        //   { to: '/blog', label: 'Blog', position: 'left' },
+        //   {
+        //     href: 'https://github.com/Py4SHS/py4shs.github.io',
+        //     label: 'GitHub',
+        //     position: 'right',
+        //   },
+        // ],
       },
       footer: {
         style: 'dark',
